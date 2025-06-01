@@ -1,0 +1,89 @@
+:root {
+ --base-btn-color: #3F8CFF;
+ --base-btn-success: #1F6DE0;
+ --base-btn-hover: #3A81EB;
+ --base-btn-disabled: #CED5E0;
+
+ /* text uchun */
+
+ --brand-text-color: #3F8CFF;
+ --brand-text-hover: #3A81EB;
+ --brand-text-active: #1F6DE0;
+ --brand-text-disabled: #B2B8C2;
+ /* text finished*/
+
+ --main-text-color:#0A1629;
+ --second-text1:#91929E;
+ --second-text2:#7D8592;
+
+}
+
+/* formatting started */
+
+.text-1 {
+ font-size: 0.5rem;
+}
+
+.text-2 {
+ font-size: 0.875rem;
+}
+
+.text-3 {
+ font-size: 1rem;
+}
+
+.text-4 {
+ font-size: 1.125rem;
+}
+
+.text-5 {
+ font-size: 1.5rem;
+}
+
+.text6 {
+ font-size: 2.25rem;
+}
+
+/* colors */
+.color-1 {
+ color: var(--main-text-color);
+}
+.color-2{
+ color: var(--second-text2);
+}
+.color-3{
+ color: var(--second-text1); 
+}
+
+.color-4{
+ color: var(--base-btn-color);
+}
+.color-4:hover{
+ color: var(--base-btn-hover);
+}
+.color-4:active{
+ color: var(--base-btn-success);
+}
+
+.color-5{
+ color: var(--base-btn-color);
+}
+.color-5:hover{
+ color: var(--base-btn-hover);
+}
+.color-5:active{
+ color: var(--base-btn-success);
+}
+
+/* Borders */
+
+.border-1{
+ border: 1px solid #D8E0F0;
+}
+.border-2{
+ border:1px solid #7D8592;
+}
+.border-3{
+ border: 1px solid #E6EBF5;
+}
+
