@@ -6,3 +6,15 @@
 body{
  font-family: "Nunito Sans", sans-serif;
 }
+
+a{
+ text-decoration: none;
+}
+li{
+ list-style: none;
+}
+button,input,select,textarea,a{
+ outline: none;
+ border: none;
+ background: #CED5E0;
+}
