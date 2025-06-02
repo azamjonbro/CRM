@@ -143,7 +143,19 @@
 .a-c-evenly{
  align-content: space-evenly;
 }
-
+/* gap */
+.gap-1{
+ gap: 4px;
+}
+.gap-2{
+ gap: 8px;
+}
+.gap-3{
+ gap: 12px;
+}
+.gap-4{
+ gap: 16px;
+}
 /* grid */
 
 
@@ -199,4 +211,34 @@
  color: #fff;
  font-size:16px;
  font-weight: 600;
+ cursor: pointer;
 }
+.add-project:hover{
+ padding: 13px 22px;
+ background: var(--base-btn-hover);
+ border-radius: 0.813rem;
+ color: #fff;
+ font-size:16px;
+ font-weight: 600;
+ transform: scale(1.01);
+}
+.add-project:active{
+ padding: 13px 22px;
+ background: var(--base-btn-success);
+ border-radius: 0.813rem;
+ color: #fff;
+ font-size:16px;
+ font-weight: 600;
+ transform: scale(1.01);
+}
+.add-project-disabled{
+  padding: 13px 22px;
+ background: var(--base-btn-disabled);
+ border-radius: 0.813rem;
+ color: #fff;
+ font-size:16px;
+ font-weight: 600;
+ cursor: no-drop;
+}
+
+

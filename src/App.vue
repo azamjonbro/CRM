@@ -1,7 +1,7 @@
 <template >
   <div>
     <div class="color-1 text-5">Assalomu alaykum</div>
-    <Button class="add-project"/>
+    <Button class="add-project" IconName="PlusIcon"/>
   </div>
 </template>
 <script>
