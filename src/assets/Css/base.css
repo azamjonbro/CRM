@@ -216,19 +216,11 @@
 .add-project:hover{
  padding: 13px 22px;
  background: var(--base-btn-hover);
- border-radius: 0.813rem;
- color: #fff;
- font-size:16px;
- font-weight: 600;
  transform: scale(1.01);
+ transition: 0.3s;
 }
 .add-project:active{
- padding: 13px 22px;
  background: var(--base-btn-success);
- border-radius: 0.813rem;
- color: #fff;
- font-size:16px;
- font-weight: 600;
  transform: scale(1.01);
 }
 .add-project-disabled{
@@ -241,4 +233,40 @@
  cursor: no-drop;
 }
 
+.task-button{
+  padding: 13px 20px;
+ background: var(--base-btn-color);
+ border-radius: 0.813rem;
+ color: #fff;
+ font-size:16px;
+ font-weight: 600;
+ cursor: pointer;
+}
+.task-button:hover{
+ background: var(--base-btn-hover);
+ transform: scale(1.01);
+ transition: 0.3s;
+}
+.task-button:active{
+ background: var(--base-btn-success);
+ transform: scale(1.01);
+ transition: 0.3s;
+}
+.task-button-disabled{
+ background: var(--base-btn-disabled);
+}
 
+.icon{
+ padding: 10px 16px;
+ border-radius: 14px;
+ cursor: pointer;
+}
+.info{
+ background: var(--base-btn-color);
+}
+.info:hover{
+ background: var(--base-btn-hover);
+}
+.info:active{
+ background: var(--base-btn-success);
+}
